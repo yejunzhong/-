@@ -1,0 +1,6 @@
+framework module Pods_______Tests {
+  umbrella header "Pods-汉堡按钮测试Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

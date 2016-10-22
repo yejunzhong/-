@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CE1F211DB7A78800A0486C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE1F201DB7A78800A0486C /* AppDelegate.swift */; };
+		28CE1F231DB7A78800A0486C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE1F221DB7A78800A0486C /* ViewController.swift */; };
+		28CE1F261DB7A78800A0486C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CE1F241DB7A78800A0486C /* Main.storyboard */; };
+		28CE1F281DB7A78800A0486C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CE1F271DB7A78800A0486C /* Assets.xcassets */; };
+		28CE1F2B1DB7A78800A0486C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CE1F291DB7A78800A0486C /* LaunchScreen.storyboard */; };
+		28CE1F361DB7A78800A0486C /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE1F351DB7A78800A0486C /* ______Tests.swift */; };
+		28CE1F411DB7A78800A0486C /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE1F401DB7A78800A0486C /* ______UITests.swift */; };
+		28D0F5EB1DB7AC3B00D6394B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 28D0F5EA1DB7AC3B00D6394B /* Podfile */; };
+		28D0F5F01DB7B06F00D6394B /* EkoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F5EF1DB7B06F00D6394B /* EkoButton.swift */; };
+		37D02028FB0AF558F754A946 /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ACEEF97F53CF77A54A5CDB /* Pods_______Tests.framework */; };
+		7A57A35C7968A695EA54993F /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC71A0E9E48B0A4DEFB628E /* Pods_______UITests.framework */; };
+		99788F99847D7BE984972B1E /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24A3CCE2CD382DE621F1493 /* Pods_______.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CE1F321DB7A78800A0486C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CE1F151DB7A78700A0486C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CE1F1C1DB7A78700A0486C;
+			remoteInfo = "汉堡按钮测试";
+		};
+		28CE1F3D1DB7A78800A0486C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CE1F151DB7A78700A0486C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CE1F1C1DB7A78700A0486C;
+			remoteInfo = "汉堡按钮测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28CE1F1D1DB7A78800A0486C /* 汉堡按钮测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汉堡按钮测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE1F201DB7A78800A0486C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28CE1F221DB7A78800A0486C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28CE1F251DB7A78800A0486C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28CE1F271DB7A78800A0486C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CE1F2A1DB7A78800A0486C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28CE1F2C1DB7A78800A0486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CE1F311DB7A78800A0486C /* 汉堡按钮测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汉堡按钮测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE1F351DB7A78800A0486C /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		28CE1F371DB7A78800A0486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CE1F3C1DB7A78800A0486C /* 汉堡按钮测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汉堡按钮测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE1F401DB7A78800A0486C /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		28CE1F421DB7A78800A0486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D0F5EA1DB7AC3B00D6394B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28D0F5EC1DB7AE9800D6394B /* 汉堡按钮测试-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "汉堡按钮测试-Bridging-Header.h"; sourceTree = "<group>"; };
+		28D0F5EF1DB7B06F00D6394B /* EkoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoButton.swift; sourceTree = "<group>"; };
+		2F6C075C4A9065C8BAEB7696 /* Pods-汉堡按钮测试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试.release.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试/Pods-汉堡按钮测试.release.xcconfig"; sourceTree = "<group>"; };
+		56CBB3853C85BB6B99B7F545 /* Pods-汉堡按钮测试UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试UITests/Pods-汉堡按钮测试UITests.release.xcconfig"; sourceTree = "<group>"; };
+		60ACEEF97F53CF77A54A5CDB /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB5772D0075EAABAC6CC27B /* Pods-汉堡按钮测试UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试UITests/Pods-汉堡按钮测试UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D97131C80D9142A75157402 /* Pods-汉堡按钮测试Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试Tests/Pods-汉堡按钮测试Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8DC71A0E9E48B0A4DEFB628E /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F56DA99B1F28BCB7356356 /* Pods-汉堡按钮测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试.debug.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试/Pods-汉堡按钮测试.debug.xcconfig"; sourceTree = "<group>"; };
+		E24A3CCE2CD382DE621F1493 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3814A454A5C1F40C9D63B1 /* Pods-汉堡按钮测试Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-汉堡按钮测试Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-汉堡按钮测试Tests/Pods-汉堡按钮测试Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CE1F1A1DB7A78700A0486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99788F99847D7BE984972B1E /* Pods_______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F2E1DB7A78800A0486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D02028FB0AF558F754A946 /* Pods_______Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F391DB7A78800A0486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A57A35C7968A695EA54993F /* Pods_______UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CE1F141DB7A78700A0486C = {
+			isa = PBXGroup;
+			children = (
+				28D0F5EA1DB7AC3B00D6394B /* Podfile */,
+				28CE1F1F1DB7A78800A0486C /* 汉堡按钮测试 */,
+				28CE1F341DB7A78800A0486C /* 汉堡按钮测试Tests */,
+				28CE1F3F1DB7A78800A0486C /* 汉堡按钮测试UITests */,
+				28CE1F1E1DB7A78800A0486C /* Products */,
+				F87790517697677B54FD73A6 /* Pods */,
+				9912BC61A849E69659889394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28CE1F1E1DB7A78800A0486C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1F1D1DB7A78800A0486C /* 汉堡按钮测试.app */,
+				28CE1F311DB7A78800A0486C /* 汉堡按钮测试Tests.xctest */,
+				28CE1F3C1DB7A78800A0486C /* 汉堡按钮测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CE1F1F1DB7A78800A0486C /* 汉堡按钮测试 */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1F201DB7A78800A0486C /* AppDelegate.swift */,
+				28CE1F221DB7A78800A0486C /* ViewController.swift */,
+				28D0F5EF1DB7B06F00D6394B /* EkoButton.swift */,
+				28CE1F241DB7A78800A0486C /* Main.storyboard */,
+				28D0F5E71DB7A8F400D6394B /* suport */,
+				28D0F5EC1DB7AE9800D6394B /* 汉堡按钮测试-Bridging-Header.h */,
+			);
+			path = "汉堡按钮测试";
+			sourceTree = "<group>";
+		};
+		28CE1F341DB7A78800A0486C /* 汉堡按钮测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1F351DB7A78800A0486C /* ______Tests.swift */,
+				28CE1F371DB7A78800A0486C /* Info.plist */,
+			);
+			path = "汉堡按钮测试Tests";
+			sourceTree = "<group>";
+		};
+		28CE1F3F1DB7A78800A0486C /* 汉堡按钮测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1F401DB7A78800A0486C /* ______UITests.swift */,
+				28CE1F421DB7A78800A0486C /* Info.plist */,
+			);
+			path = "汉堡按钮测试UITests";
+			sourceTree = "<group>";
+		};
+		28D0F5E71DB7A8F400D6394B /* suport */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1F271DB7A78800A0486C /* Assets.xcassets */,
+				28CE1F2C1DB7A78800A0486C /* Info.plist */,
+				28CE1F291DB7A78800A0486C /* LaunchScreen.storyboard */,
+			);
+			name = suport;
+			sourceTree = "<group>";
+		};
+		9912BC61A849E69659889394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24A3CCE2CD382DE621F1493 /* Pods_______.framework */,
+				60ACEEF97F53CF77A54A5CDB /* Pods_______Tests.framework */,
+				8DC71A0E9E48B0A4DEFB628E /* Pods_______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87790517697677B54FD73A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F56DA99B1F28BCB7356356 /* Pods-汉堡按钮测试.debug.xcconfig */,
+				2F6C075C4A9065C8BAEB7696 /* Pods-汉堡按钮测试.release.xcconfig */,
+				EF3814A454A5C1F40C9D63B1 /* Pods-汉堡按钮测试Tests.debug.xcconfig */,
+				8D97131C80D9142A75157402 /* Pods-汉堡按钮测试Tests.release.xcconfig */,
+				6DB5772D0075EAABAC6CC27B /* Pods-汉堡按钮测试UITests.debug.xcconfig */,
+				56CBB3853C85BB6B99B7F545 /* Pods-汉堡按钮测试UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CE1F1C1DB7A78700A0486C /* 汉堡按钮测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE1F451DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试" */;
+			buildPhases = (
+				019E09A6C9A2322263A919D3 /* [CP] Check Pods Manifest.lock */,
+				28CE1F191DB7A78700A0486C /* Sources */,
+				28CE1F1A1DB7A78700A0486C /* Frameworks */,
+				28CE1F1B1DB7A78700A0486C /* Resources */,
+				0B663361B2DA1BB5A15BA3C9 /* [CP] Embed Pods Frameworks */,
+				84AA08E6CD388CACFCA188DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "汉堡按钮测试";
+			productName = "汉堡按钮测试";
+			productReference = 28CE1F1D1DB7A78800A0486C /* 汉堡按钮测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CE1F301DB7A78800A0486C /* 汉堡按钮测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE1F481DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试Tests" */;
+			buildPhases = (
+				30C82A363EB86A73F1CD5F4A /* [CP] Check Pods Manifest.lock */,
+				28CE1F2D1DB7A78800A0486C /* Sources */,
+				28CE1F2E1DB7A78800A0486C /* Frameworks */,
+				28CE1F2F1DB7A78800A0486C /* Resources */,
+				6466605C8D86EE5EAD612BF2 /* [CP] Embed Pods Frameworks */,
+				897BAC72D6715055BC879B00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CE1F331DB7A78800A0486C /* PBXTargetDependency */,
+			);
+			name = "汉堡按钮测试Tests";
+			productName = "汉堡按钮测试Tests";
+			productReference = 28CE1F311DB7A78800A0486C /* 汉堡按钮测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28CE1F3B1DB7A78800A0486C /* 汉堡按钮测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE1F4B1DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试UITests" */;
+			buildPhases = (
+				CB74243E961A9AA39B5071F2 /* [CP] Check Pods Manifest.lock */,
+				28CE1F381DB7A78800A0486C /* Sources */,
+				28CE1F391DB7A78800A0486C /* Frameworks */,
+				28CE1F3A1DB7A78800A0486C /* Resources */,
+				B002F8B25930F976414B201E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CE1F3E1DB7A78800A0486C /* PBXTargetDependency */,
+			);
+			name = "汉堡按钮测试UITests";
+			productName = "汉堡按钮测试UITests";
+			productReference = 28CE1F3C1DB7A78800A0486C /* 汉堡按钮测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CE1F151DB7A78700A0486C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "叶俊中";
+				TargetAttributes = {
+					28CE1F1C1DB7A78700A0486C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					28CE1F301DB7A78800A0486C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28CE1F1C1DB7A78700A0486C;
+					};
+					28CE1F3B1DB7A78800A0486C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28CE1F1C1DB7A78700A0486C;
+					};
+				};
+			};
+			buildConfigurationList = 28CE1F181DB7A78700A0486C /* Build configuration list for PBXProject "汉堡按钮测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CE1F141DB7A78700A0486C;
+			productRefGroup = 28CE1F1E1DB7A78800A0486C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CE1F1C1DB7A78700A0486C /* 汉堡按钮测试 */,
+				28CE1F301DB7A78800A0486C /* 汉堡按钮测试Tests */,
+				28CE1F3B1DB7A78800A0486C /* 汉堡按钮测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CE1F1B1DB7A78700A0486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE1F2B1DB7A78800A0486C /* LaunchScreen.storyboard in Resources */,
+				28CE1F281DB7A78800A0486C /* Assets.xcassets in Resources */,
+				28D0F5EB1DB7AC3B00D6394B /* Podfile in Resources */,
+				28CE1F261DB7A78800A0486C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F2F1DB7A78800A0486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F3A1DB7A78800A0486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019E09A6C9A2322263A919D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B663361B2DA1BB5A15BA3C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-汉堡按钮测试/Pods-汉堡按钮测试-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C82A363EB86A73F1CD5F4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6466605C8D86EE5EAD612BF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-汉堡按钮测试Tests/Pods-汉堡按钮测试Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84AA08E6CD388CACFCA188DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-汉堡按钮测试/Pods-汉堡按钮测试-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897BAC72D6715055BC879B00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-汉堡按钮测试Tests/Pods-汉堡按钮测试Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B002F8B25930F976414B201E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-汉堡按钮测试UITests/Pods-汉堡按钮测试UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB74243E961A9AA39B5071F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CE1F191DB7A78700A0486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE1F231DB7A78800A0486C /* ViewController.swift in Sources */,
+				28CE1F211DB7A78800A0486C /* AppDelegate.swift in Sources */,
+				28D0F5F01DB7B06F00D6394B /* EkoButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F2D1DB7A78800A0486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE1F361DB7A78800A0486C /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE1F381DB7A78800A0486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE1F411DB7A78800A0486C /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CE1F331DB7A78800A0486C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CE1F1C1DB7A78700A0486C /* 汉堡按钮测试 */;
+			targetProxy = 28CE1F321DB7A78800A0486C /* PBXContainerItemProxy */;
+		};
+		28CE1F3E1DB7A78800A0486C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CE1F1C1DB7A78700A0486C /* 汉堡按钮测试 */;
+			targetProxy = 28CE1F3D1DB7A78800A0486C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CE1F241DB7A78800A0486C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE1F251DB7A78800A0486C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28CE1F291DB7A78800A0486C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE1F2A1DB7A78800A0486C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CE1F431DB7A78800A0486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28CE1F441DB7A78800A0486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CE1F461DB7A78800A0486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F56DA99B1F28BCB7356356 /* Pods-汉堡按钮测试.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "汉堡按钮测试/汉堡按钮测试-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28CE1F471DB7A78800A0486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6C075C4A9065C8BAEB7696 /* Pods-汉堡按钮测试.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "汉堡按钮测试/汉堡按钮测试-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28CE1F491DB7A78800A0486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3814A454A5C1F40C9D63B1 /* Pods-汉堡按钮测试Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/汉堡按钮测试.app/汉堡按钮测试";
+			};
+			name = Debug;
+		};
+		28CE1F4A1DB7A78800A0486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D97131C80D9142A75157402 /* Pods-汉堡按钮测试Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/汉堡按钮测试.app/汉堡按钮测试";
+			};
+			name = Release;
+		};
+		28CE1F4C1DB7A78800A0486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB5772D0075EAABAC6CC27B /* Pods-汉堡按钮测试UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "汉堡按钮测试";
+			};
+			name = Debug;
+		};
+		28CE1F4D1DB7A78800A0486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CBB3853C85BB6B99B7F545 /* Pods-汉堡按钮测试UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "汉堡按钮测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "汉堡按钮测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CE1F181DB7A78700A0486C /* Build configuration list for PBXProject "汉堡按钮测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE1F431DB7A78800A0486C /* Debug */,
+				28CE1F441DB7A78800A0486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE1F451DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE1F461DB7A78800A0486C /* Debug */,
+				28CE1F471DB7A78800A0486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE1F481DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE1F491DB7A78800A0486C /* Debug */,
+				28CE1F4A1DB7A78800A0486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE1F4B1DB7A78800A0486C /* Build configuration list for PBXNativeTarget "汉堡按钮测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE1F4C1DB7A78800A0486C /* Debug */,
+				28CE1F4D1DB7A78800A0486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CE1F151DB7A78700A0486C /* Project object */;
+}
